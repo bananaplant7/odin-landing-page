@@ -55,15 +55,14 @@ a {
     flex: 1;
     padding: 14px 200px 0;
     box-sizing: border-box;
+    flex-direction: column;
 }
 
 .section1 {
-    background-color: #1f2937;
-    flex-direction: column;
+    background-color: #1f2937;  
 }
 
 .section2 {
-    flex-direction: column;
     text-align: center;
 }
 
@@ -74,7 +73,7 @@ a {
 
 .section3 {
     background-color: #e5e7eb;
-    flex-direction: column;
+    
     padding: 100px 200px;
 }
 
@@ -87,9 +86,7 @@ a {
     font-size: 18px;
 }
 
-
-
-.couch {
+.hero-img {
     display: flex;
     width: 500px;
 }
@@ -166,13 +163,44 @@ a {
 }
 
 .quote {
-    text-align: ;
     font-size: 36px;
     font-weight: 300;
     font-style: italic;
+    
 }
 
 .quote-author {
     text-align: end;
     font-weight: bold;
+}
+
+.cta {
+    display: flex;
+    background-color: #3882f6;
+    color: #F9FAF8;
+    border-radius: 5px;
+    padding: 40px 300px;
+    align-items: center;
+    justify-content: space-between;
+    margin: 80px 0;
+    
+}
+
+.cta-button {
+    color: #F9FAF8;
+    background-color: #3882f6;
+    border: 2px solid #F9FAF8;
+    border-radius: 5px;
+    padding: 6px 20px;
+    font-weight: bold;
+}
+
+.cta-header {
+    font-weight: 1000;
+    font-size: 18px;
+}
+
+.cta-info {
+    font-weight: 300;
+    font-size: 14px;
 }
